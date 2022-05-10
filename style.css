@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    font-size: xx-large; 
+    font-weight: bold;
+    gap: 250px;
+    background-color: rgb(255, 162, 48);
+    line-height: 1.0;
+}
