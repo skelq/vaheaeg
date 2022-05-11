@@ -37,6 +37,11 @@ var x = setInterval(function() {
   document.getElementById("display").innerHTML = days + " päeva, " + hours + " tundi, "
   + minutes + " minutit " + " ja " + seconds + " sekundit "
 
+    if (hours === 0)
+    clearInterval(x);
+    document.getElementById("display").innerHTML = "vaheaeg pole veel alanud."
+    document.getElementById("text").innerHTML = "Siin pole midagi kuna"
+    
   // if countdown is up change the innerHTML
   if (distance < 0) {
     clearInterval(x);
