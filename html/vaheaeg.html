@@ -36,9 +36,6 @@ var x = setInterval(function() {
     // display time diffrence
   document.getElementById("display").innerHTML = days + " päeva, " + hours + " tundi, "
   + minutes + " minutit " + " ja " + seconds + " sekundit "
-    if (minutes === 0) {
-        window.location.href = ""
-    }
 
   // if countdown is up change the innerHTML
   if (distance < 0) {
