@@ -1,1 +1,1 @@
-# https://skelq.github.io
+# http://skelq.github.io
