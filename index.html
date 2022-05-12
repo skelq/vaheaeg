@@ -23,7 +23,7 @@ var x = setInterval(function() {
 
   // time and date
   var now = new Date().getTime();
- 
+  
   // time and date difference
   var distance = countDownDate - now;
 
@@ -40,7 +40,7 @@ var x = setInterval(function() {
   // if countdown is up change the innerHTML
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("text").innerHTML = "Kooli vaheaeg on juba alanud, Mine tee midagi."
+    document.getElementById("text").innerHTML = "Vajuta lingile, et näha kui kaua see kestab."
   }
 
 //overriding date function for testing
